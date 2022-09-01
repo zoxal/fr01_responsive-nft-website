@@ -330,9 +330,6 @@ img {
   animation: float-eth 2s ease-in-out infinite;
 }
 
-.home__img-orbe img {
-  animation: float-orbe 2s ease-in-out infinite;
-}
 
 @keyframes float-eth {
   0% {
@@ -346,18 +343,6 @@ img {
   }
 }
 
-
-@keyframes float-orbe {
-  0% {
-    transform: translateY(0rem);
-  }
-  50% {
-    transform: translateY(.2em);
-  }
-  100% {
-    transform: translateY(0rem);
-  }
-}
 
 
 /*=============== BREAKPOINTS ===============*/
